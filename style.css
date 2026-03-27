@@ -43,47 +43,7 @@ img{
     height: 400px;
     width: 400px;
 }
-/*form*/
-.container form{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-  margin:  0 auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  border-radius: 12px;
-  background-color: rgba(220, 179, 224, 0.676);
-  width: 90%;
-  max-width: 500px;
-  border: 1px solid #ccc;
-}
-.container label{
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    font-weight: 500;
-    
-}
-.container button{
-    background-color: white;
-    color: rgba(22, 3, 3, 0.847);
-    padding: 8px 10px;
-    border: none;
-    border-radius: 2x;
-    margin-top: 8px;
-    cursor: pointer;
-    font-size: 1em;
-    font-size: 1.1em;
-}
 
-form input{
-    padding: 8x;
-    border: 1px solid #ccc;
-    border-radius: 2x;
-    width: 50%;
-    margin-bottom:10px;
-    font-size: 1em;
-}
 
 
 
@@ -101,11 +61,10 @@ form input{
 }
 
 #footer{
-    background-color: rgba(220, 179, 224, 0.676);
-    color: white;
-   display: flex;
-    gap: 20px; 
+    
+   color: black;
+    display: flex;
+    gap: 10px; 
     justify-content: center;
-     flex-wrap: wrap
-     
-}
+    margin-top: auto;
+   }

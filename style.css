@@ -1,0 +1,111 @@
+body{
+    background-color: rgba(241, 218, 241, 0.913);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-color: black;
+    
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(220, 179, 224, 0.676);
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    display:block;
+    text-align: center;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    
+}
+p{
+    display:block;
+    text-align: center;
+    font-size: 1.2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+img{
+    display:block;
+    margin: auto;
+    margin-top: 20px;
+    height: 400px;
+    width: 400px;
+}
+/*form*/
+.container form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin:  0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 12px;
+  background-color: rgba(220, 179, 224, 0.676);
+  width: 90%;
+  max-width: 500px;
+  border: 1px solid #ccc;
+}
+.container label{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 500;
+    
+}
+.container button{
+    background-color: white;
+    color: rgba(22, 3, 3, 0.847);
+    padding: 8px 10px;
+    border: none;
+    border-radius: 2x;
+    margin-top: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    font-size: 1.1em;
+}
+
+form input{
+    padding: 8x;
+    border: 1px solid #ccc;
+    border-radius: 2x;
+    width: 50%;
+    margin-bottom:10px;
+    font-size: 1em;
+}
+
+
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 8px;
+  padding: 6px;
+  
+}
+.container image img {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+#footer{
+    background-color: rgba(220, 179, 224, 0.676);
+    color: white;
+   display: flex;
+    gap: 20px; 
+    justify-content: center;
+     flex-wrap: wrap
+     
+}
